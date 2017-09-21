@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
 
+</head>
 
+<body>
 
-    </head>
+    <div class="container">
+        <a href={!!route('tools.index')!!}><h1>hello</h1></a>
+        @yield('content')
+    </div><!-- end of container -->
 
-    <body>
+    <script src="/js/message.js"></script>
 
+</body>
 
-
-        <div class="container">
-          <a href={!!route('tools.index')!!}><h1>hello</h1></a>
-          @yield('content')
-        </div><!-- end of container -->
-
-        <script src="/js/message.js"></script>
-
-
-    </body>
 </html>

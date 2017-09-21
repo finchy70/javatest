@@ -1,4 +1,4 @@
-function myFunction(){
+function switchCheck(){
   var message = document.getElementById('switch');
   console.log(message);
   console.log(document.getElementById('tools').value);
